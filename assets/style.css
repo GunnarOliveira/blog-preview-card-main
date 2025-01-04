@@ -38,6 +38,7 @@ img {
   border-radius: 1rem;
   box-shadow: 0.63rem 0.63rem var(--shadow);
   max-width: 23.8rem;
+  min-height: 33.2rem;
   overflow: hidden;
 }
 .content {
