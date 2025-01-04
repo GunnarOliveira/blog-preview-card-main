@@ -48,7 +48,7 @@ img {
   justify-items: start;
 }
 .content-banner {
-  background: url(/assets/images/illustration-article.svg);
+  background: url(./images/illustration-article.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
