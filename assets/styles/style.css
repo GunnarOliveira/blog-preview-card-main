@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  --border: hsl(0, 0%, 7%);
+  --shadow: hsl(0, 0%, 7%);
+  --background-body: hsl(47, 88%, 63%);
+  --background-card: hsl(0, 0%, 100%);
+  --background-badge: hsl(47, 88%, 63%);
+  --light-text: hsl(0, 0%, 42%);
+  --bold-text: hsl(0, 0%, 7%);
+  --hover-text: hsl(47, 88%, 63%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body {
+  background-color: var(--background-body);
+  padding: 1.25rem;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Figtree", serif;
+}
+p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  outline: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: 0.63rem 0.63rem var(--shadow);
+  max-width: 23.8rem;
+  overflow: hidden;
+}
+.content {
+  background-color: var(--background-card);
+  display: grid;
+  gap: 1.4rem;
+  padding: 1.25rem;
+  justify-items: start;
+}
+.content-banner {
+  background: url(/assets/images/illustration-article.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 13rem;
+  border-radius: 0.5rem;
+}
+.badge {
+  background: var(--background-badge);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  font-weight: 800;
+}
+.card-title a {
+  color: var(--bold-text);
+  transition: 0.1s linear;
+}
+.card-title a:hover {
+  color: var(--hover-text);
+}
+.light-text {
+  color: var(--light-text);
+}
+.bold-text {
+  font-weight: 800;
+  color: var(--bold-text);
+}
+.autor {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.avatar-container {
+  width: 2.25rem;
+}
